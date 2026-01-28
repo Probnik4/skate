@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+div.wrapper{max-width: 1170px; margin-right: auto; margin-left: auto; 
+    background-color: black;
+}
+
+div.zagalovok{background-color: black; 
+    padding: 30px; position: sticky; top: 0px; z-index: 70;}
+div.zagalovok table{position: relative; left: 73%;  }
+div.zagalovok p{margin: 0; font-family: 'Open Sans', sans-serif;
+    color: white; font-size: 30px; }
+div.zagalovok td#n{text-align: right; padding: 10px; }
+div.zagalovok td#k{text-align: right; padding: 10px; }
+div.zagalovok td#i{text-align: right; padding: 10px; }
+a, a:visited{text-decoration: none; color:inherit; }
+
+
+
+div.sk{display: flex; align-items: center; justify-content: center; 
+    overflow: hidden;  max-width: 1170px; position: relative;
+    background-image:url(sk1.jpg); height: 600px; background-size: cover;}
+div.sk img{position: absolute; top:0; left: 0; width: 100%; height: 100%;
+    object-fit: cover; z-index: 1; }
+div.sk table.hed{position: relative; z-index: 2; bottom:20px; margin-right: auto;
+    margin-left: auto; }
+div.sk table h1{font-family: 'Open Sans', sans-serif; color: white;
+    text-align: center; font-size: 80px; text-shadow: 2px 5px 0px #000;}
+span.skeitbording{color:#FCC666}
+span.doska{color:#FC7D01}
+
+
+
+div.perehod{background-color: black; z-index: 30;
+    padding: 100px; position: relative; bottom: 80px; opacity: 0.85; }
+
+
+
+div.sk2{display: flex; flex-direction: column; align-items: flex-start; 
+    justify-content: flex-start; overflow: hidden;  max-width: 1170px; 
+    position: relative; top:-80px; background-image:url(sk10.jpg); 
+    min-height: 2000px; background-size: cover; padding: 60px; padding-bottom: 200px;}
+div.sk2 img{position: absolute; top: 0;; left: 0; width: 100%; height: 100%;
+    object-fit: cover; z-index: 1; }
+div.sk2 table.inf{position: relative; z-index: 2; margin-top: 60px; top:-10px;
+    margin-left: 0px; margin-bottom:40px; 
+    background-color: #000; width: 500px; height: 750px;
+    bottom: 360px; max-width:1000px; } 
+div.sk2 table.inf p{font-family: 'Open Sans', sans-serif; color: white; 
+    text-align: left; font-size: 30px; padding: 35px;}
+div.sk2 table.inf th{height: 750px;}
+div.sk2 table.inf td{height: 750px;}
+
+div.perehodx{background-color: black; z-index: 3; max-width: 1170px; width: 100%;
+    padding: 500px 585px 300px 585px; position: relative; bottom: 10px; opacity: 0.50; 
+    margin-top: 100px; right:60px;}
+
+    
+div.sk2 .catalog-container{position: relative; z-index: 4; width: 100%;
+    margin-top: -100px; display: flex; flex-direction: column; gap: 30px;}
+
+div.sk2 .catalog-container table.catalog{position: relative; z-index: 4; margin: -700px auto 40px auto;
+     max-width:1000px; top:0; bottom: 0;}
+div.sk2 .catalog-container table.catalog th{font-family: 'Open Sans', sans-serif; color: white;
+    text-align: center; font-size: 60px; padding: 20px; }
+
+div.horizontal{grid-template-columns: 20px 20px 20px; display: flex; 
+    justify-content: space-evenly; margin-bottom: 50px;}
+div.sk2 .horizontal table.hist th{font-family: 'Open Sans', sans-serif; color: #FC7D01;
+    text-align: center; font-size: 30px; padding: 30px; background-color: #000; padding-top: 30px;
+    padding-bottom: 30px; }
+
+
+div.sk2 .horizontal table.skate th{font-family: 'Open Sans', sans-serif; color: #FC7D01;
+    text-align: center; font-size: 30px; padding: 20px; background-color: #000;}
+div.sk2 .horizontal table.doski th{font-family: 'Open Sans', sans-serif; color: #FC7D01;
+    text-align: center; font-size: 30px; padding: 20px; background-color: #000;}
+
+div.horizontaltwo{grid-template-columns: 20px 20px 20px; display: flex; 
+    justify-content: center; gap: 140px; margin-top: 50px;}
+div.sk2 .horizontaltwo table.osnova th{font-family: 'Open Sans', sans-serif; color: #FC7D01;
+    text-align: center; font-size: 30px; padding: 35px; background-color: #000;}
+div.sk2 .horizontaltwo table.place th{font-family: 'Open Sans', sans-serif; color: #FC7D01;
+    text-align: center; font-size: 30px; padding: 30px; background-color: #000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
