@@ -1,35 +1,22 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
-div.wrapper{max-width: 1170px; margin-right: auto; margin-left: auto; 
-    background-color: black; overflow-x: hidden; position: relative;}
+div.wrapper{max-width: 1170px; margin-right: auto; margin-left: auto; background-color: black; overflow-x: hidden; position: relative;}
 table {max-width: 100%; box-sizing: border-box;}
 
-li{margin: 0; font-family: 'Bitter', sans-serif;
-    color: white; font-size: 30px; }
-p{margin: 0; font-family: 'Bitter', sans-serif;
-    color: white; font-size: 30px; }
+li{margin: 0; font-family: 'Bitter', sans-serif; color: white; font-size: 30px; }
+p{margin: 0; font-family: 'Bitter', sans-serif; color: white; font-size: 30px; }
 
-div.zagalovok{background-color: black; width: 1170px;
-    padding: 30px; position: fixed; top: 0px; z-index: 1000;
-    box-sizing: border-box; max-width: 1170px;
-}
-div.zagalovok table{position: relative; left: 73%;  }
-div.zagalovok p{margin: 0; font-family: 'Open Sans', sans-serif;
-    color: white; font-size: 30px; }
-div.zagalovok td#n{text-align: right; padding: 10px; }
-div.zagalovok td#k{text-align: right; padding: 10px; }
-div.zagalovok td#i{text-align: right; padding: 10px; }
+div.zagalovok{background-color: black; width: 1170px; padding: 30px; position: fixed; top: 0px; z-index: 1000; box-sizing: border-box; max-width: 1170px;}
+div.zagalovok table{position: relative; left: 73%;}
+div.zagalovok p{margin: 0; font-family: 'Open Sans', sans-serif; color: white; font-size: 30px; }
+div.zagalovok td#n{text-align: right; padding: 10px;}
+div.zagalovok td#k{text-align: right; padding: 10px;}
+div.zagalovok td#i{text-align: right; padding: 10px;}
 a, a:visited{text-decoration: none; color:inherit; }
-div.zagalovok#hist{background-color: #191919; display: flex;
-    padding: 30px; position: fixed; top: 0px; z-index: 1000; 
-    justify-content: space-between; box-sizing: border-box;
-    align-items: center;}
-div.zagalovok#hist table:first-child {position: static; left: 0;
-    margin-right: auto;}
-div.zagalovok#hist td {display: table-cell;
-    vertical-align: middle;}
-div.zagalovok#hist table:last-child {
-    position: static;
-    margin-left: auto; }
+div.zagalovok#hist{background-color: #191919; display: flex; padding: 30px; position: fixed; top: 0px; z-index: 1000; justify-content: space-between; box-sizing: border-box; 
+                   align-items: center;}
+div.zagalovok#hist table:first-child {position: static; left: 0; margin-right: auto;}    
+div.zagalovok#hist td {display: table-cell; vertical-align: middle;}
+div.zagalovok#hist table:last-child {position: static; margin-left: auto; }
 
 
 div.sk{display: flex; align-items: center; justify-content: center; 
@@ -127,24 +114,20 @@ div.perehodyyyy table th{margin: 5px; font-family: 'Bitter', sans-serif;
     color: white; font-size: 30px;}
 
 div.foto{margin: 70px auto 50px auto; max-width: 1170px; padding: 0 20px;
-    box-sizing: border-box; width: 100%;
-}
+    box-sizing: border-box; width: 100%;}
 div.foto table{z-index: 0; background-color: #191919; width: 100%;
     padding: 50px;  bottom: 20px; top:50px;  border-spacing: 10px;
     text-align: center; color:white; border-collapse: separate;
     padding-left:30px; margin: 0 auto; box-sizing: border-box; }
-div.foto table img.ff,
-div.foto table img.f {max-width: 600px; width: 100%; padding: 0 10px; 
-    object-fit: cover; }
+div.foto table img.ff {max-width: 600px; width: 100%; padding: 0 10px; object-fit: cover; }
+div.foto table img.f {max-width: 600px; width: 100%; padding: 0 10px; object-fit: cover; }
 
 
-div.foto table td {padding: 10px; vertical-align: middle;
-    box-sizing: border-box;}
+div.foto table td {padding: 10px; vertical-align: middle; box-sizing: border-box;}
 
-div.foto table tr {display: flex; flex-wrap: wrap;
-    justify-content: center; gap: 20px;}
+div.foto table tr {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;}
 
-div.foto table td {flex: 1; min-width: 300px;
-    max-width: 600px;}
+div.foto table td {flex: 1; min-width: 300px; max-width: 600px;}
+
 
 
